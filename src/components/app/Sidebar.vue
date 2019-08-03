@@ -33,6 +33,8 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+    .sidenav {
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    }
 </style>

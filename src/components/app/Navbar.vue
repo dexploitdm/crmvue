@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar orange lighten-1">
+    <nav class="navbar">
         <div class="nav-wrapper">
             <div class="navbar-left">
                 <a href="#" @click.prevent="$emit('click')">
@@ -68,6 +68,10 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+    .navbar {
+        background: rgba(255, 255, 255, 0.98);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+        pointer-events: auto;
+    }
 </style>
