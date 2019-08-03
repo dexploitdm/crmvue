@@ -32,3 +32,10 @@ export default {
     }
 }
 </script>
+<style lang="scss">
+    .app-main-layout {
+        background-image: radial-gradient(#D7D7D7 1px, transparent 1px), radial-gradient(#d7d7d7 1px, transparent 1px);
+        background-position: 0 0, 25px 25px;
+        background-size: 50px 50px;
+    }
+</style>
